@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+#container {
+    display: flex;
+    height: 200px;
+    background-color: azure;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box1 {
+    background-color:aqua;
+}
+#box2 {
+    background-color: aquamarine;
+}
+
+div {
+    padding: 10px;
+}
+header {
+    text-align: center
+}
+img {
+    opacity: 0.8;
+}
+#box1, #box2 {
+  animation-name: swapdivs;
+  animation-duration: 4s;
+}
+
+@keyframes swapdivs {
+  from {background-color: rgb(251, 255, 0);}
+  to {background-color: rgb(245, 52, 4);}
+}
