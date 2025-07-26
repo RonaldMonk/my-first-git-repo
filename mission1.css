@@ -31,6 +31,6 @@ img {
 }
 
 @keyframes swapdivs {
-  from {background-color: rgb(251, 255, 0);}
-  to {background-color: rgb(245, 52, 4);}
+  from {background-color: pink;}
+  to {background-color: peru;}
 }
